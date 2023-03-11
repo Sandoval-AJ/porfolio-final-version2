@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./font/Roboto/Roboto-Light.ttf) format("truetype");
+}
+:root{
+    --color1:#1e272e;
+    --color2:#2c3e50;
+    --color3:#34495e;
+    --color4:#ecf0f1;
+    --color5:#e74c3c;
+    --color6:#3498db;
+    --color7:#2ecc71;
+    --color8:#f39c12;
+    --color9:#1a2129;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+
+}
+body{
+    background-color: var(--color1);
+}
+.container-barra{
+    position: fixed;
+    width: 10rem;
+    height: 100%;
+    background-color: var(--color9);
+}
+.img-barra{
+    height: 2rem;
+    margin: auto 1rem;
+}
+.container-s{
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 5rem;
+}
+.s-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+
+    font-size: 4rem;
+    background-color: var(--color3);
+}
+.s-container:hover{
+    position: fixed;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 7px 7px 0 var(--color6);
+    transition: .2s linear;
+}
+.s-container:not(:hover){
+    transition: .2s linear;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 15px;
+    color: var(--color4);
+}
+li:hover{
+    width: 12rem;
+    background-color: var(--color3);
+    transition: .2s linear;
+    box-shadow: 10px 0 0 var(--color6);
+}
+li:not(:hover){
+    transition: 1s linear;
+}
+.redes{
+    height: 5rem;
+    margin: auto;
+}
+.container-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
