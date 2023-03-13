@@ -18,11 +18,12 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-
+    scroll-behavior: smooth;
 }
 a{
     color: var(--color4);
     text-decoration: none;
+
 }
 body{
     background-color: var(--color1);
@@ -294,6 +295,12 @@ textarea:focus{
 .proyecto4{
     background-color: var(--color8);
 }
-h3{
-    margin: 25rem auto;
+.titulo-proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    background-color: var(--color3);
+    margin: 29rem auto;
 }
