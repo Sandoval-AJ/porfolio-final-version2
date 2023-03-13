@@ -244,6 +244,38 @@ textarea:focus{
     font-size: 30px;
     font-weight: 100;
 }
+/*sobre mi*/
+.container-sobre-mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    height: 100%;
+    width: 80%;
+}
+.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    background-color: var(--color3);
+}
+.container-title-sobre-mi{
+    color: var(--color4);
+    margin: 20rem auto 5rem;
+}
+.container-info-sobre-mi{
+    text-align: center;
+    color: var(--color4);
+    line-height: 4rem;
+}
+.icons-sobre-mi{
+    position: relative;
+    top: .5rem;
+    height: 3rem;
+    width: 3rem;
+}
 /*mis skills*/
 .container-title-propyectos{
     text-align: center;
