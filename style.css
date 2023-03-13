@@ -20,6 +20,10 @@
     font-family: "Roboto";
 
 }
+a{
+    color: var(--color4);
+    text-decoration: none;
+}
 body{
     background-color: var(--color1);
 }
@@ -88,7 +92,6 @@ li:not(:hover){
 /* contenido del main*/
 main{
     margin: 0 0 0 10rem;
-    padding: 15rem 10rem;
 }
 .container-sobre-mi{
     display: flex;
@@ -99,6 +102,7 @@ main{
     font-size: 25px;
     height: 5rem;
     width: 15rem;
+    margin: auto 25.3%;
     background-color: var(--color6);
     cursor: pointer;
     border: none;
@@ -111,15 +115,16 @@ main{
 }
 .titulo-sobre-mi{
     font-size: 70px;
-    margin: 3rem 0 0;
+    margin: 10rem auto 0;
 }
 .titulo2-sobre-mi{
     display: flex;
     align-items: center;
     height: 2rem;
     width: 46rem;
+    min-width: 25rem;
     font-size: 20px;
-    margin: 2rem 0;
+    margin: 2rem auto;
     padding: 0 2rem 0;
     background-color: var(--color6);
 }
@@ -142,8 +147,7 @@ main{
     position: fixed;
     width: 100%;
     height: 100%;
-    margin: -10rem;
-    margin-top: -15rem;
+    margin: auto;
     padding: 0;
     background-color: rgb(0, 0, 0, .5);
 }
@@ -222,4 +226,74 @@ textarea:focus{
 .img-close{
     height: 1rem;
     width: 1rem;
+}
+/*reloj*/
+.time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 5rem;
+    margin: 3rem 75rem;
+    background-color: var(--color9);
+    cursor: default;
+}
+.time{
+    color: var(--color4);
+    font-size: 30px;
+    font-weight: 100;
+}
+/*mis skills*/
+.container-title-propyectos{
+    text-align: center;
+    width: 80%;
+    border-bottom: 1px solid var(--color4);
+}
+.container-h2-proyecto{
+    margin: 1rem;
+    color: var(--color4);
+}
+.container-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+}
+.contenido-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3rem auto;
+    height: 30rem;
+    width: 50rem;
+}
+.proyectos{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+.proyectos:hover{
+    width: 40%;
+    transition: .2s linear;
+}
+.proyectos:not(:hover){
+    transition: .2s linear;
+}
+.proyecto1{
+    background-color: var(--color5);
+}
+.proyecto2{
+    background-color: var(--color6);
+}
+.proyecto3{
+    background-color: var(--color7);
+}
+.proyecto4{
+    background-color: var(--color8);
+}
+h3{
+    margin: 25rem auto;
 }
